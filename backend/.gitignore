@@ -1,0 +1,60 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Files
+.env
+.env.local
+
+# ChromaDB Database
+chroma_db/
+chromadb/
+
+# Temporary Files
+temp/
+tmp/
+
+# Build Files
+build/
+dist/
+
+# Testing
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node Modules (Frontend)
+node_modules/
+
+# React Build
+frontend/build/
+frontend/dist/
+
+# Uploaded Files (if any)
+uploads/
+
+# Local Database
+*.db
+*.sqlite3
