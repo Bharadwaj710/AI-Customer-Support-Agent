@@ -1,9 +1,7 @@
-from sentence_transformers import SentenceTransformer
+from chromadb.utils import embedding_functions
 
-model=SentenceTransformer(
-    "all-MiniLM-L6-v2"
-)
+onnx_ef = embedding_functions.DefaultEmbeddingFunction()
 
 def generate_embedding(text:str):
-    embedding=model.encode(text)
-    return embedding.tolist()
+    embeddings = onnx_ef([text])
+    return embeddings[0]
