@@ -5,8 +5,16 @@ from models.chat_model import ChatRequest
 from models.chat_response import ChatResponse
 from services.support_agent import handle_query
 from services.ticket_service import get_all_tickets, create_ticket
-from services.vector_store import collection
+from services.vector_store import collection, store_documents
 from services.document_loader import load_documents
+
+# Auto-ingest documents if Vector DB is empty on startup (e.g. fresh Render deployment)
+try:
+    if collection.count() == 0:
+        print("Vector DB empty. Auto-ingesting documents...")
+        store_documents()
+except Exception as e:
+    print(f"Startup DB Check Failed: {e}")
 
 from fastapi.middleware.cors import CORSMiddleware
 

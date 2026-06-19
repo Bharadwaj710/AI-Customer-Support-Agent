@@ -25,7 +25,7 @@ Content:
 ----------------------------------------
 """
 
-        prompt = f"""
+    prompt = f"""
 You are an AI customer support assistant.
 
 Use the documentation context to answer the user's question.
