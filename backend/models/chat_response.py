@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Any
 
 class ChatResponse(BaseModel):
-    response:str
+    result: Any

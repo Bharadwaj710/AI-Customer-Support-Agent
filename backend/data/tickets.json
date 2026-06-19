@@ -1,0 +1,58 @@
+[
+    {
+        "ticketId": "TKT-1854",
+        "status": "created",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "issue": "Unable to access dashboard"
+    },
+    {
+        "ticketId": "TKT-1357",
+        "status": "created",
+        "name": "Bharadwaj",
+        "email": "bharadwaj@gmail.com",
+        "issue": "Create a support ticket for dashboard issue"
+    },
+    {
+        "ticketId": "TKT-8430",
+        "status": "created",
+        "name": "Bharadwaj",
+        "email": "bharadwaj@gmail.com",
+        "issue": "Create a support ticket for dashboard issue"
+    },
+    {
+        "ticketId": "TKT-4881",
+        "status": "created",
+        "name": "bharat",
+        "email": "bharat@gmail.com",
+        "issue": "create ticket: need help in it sdrs\n"
+    },
+    {
+        "ticketId": "TKT-6753",
+        "status": "created",
+        "name": "tarun",
+        "email": "tar@gmail.com",
+        "issue": "create ticket: dashboard not working"
+    },
+    {
+        "ticketId": "TKT-3979",
+        "status": "created",
+        "name": "karthik",
+        "email": "karthik@gmail.com",
+        "issue": "Dashboard stats not showing"
+    },
+    {
+        "ticketId": "TKT-4049",
+        "status": "created",
+        "name": "Mark",
+        "email": "mar@gmail.com",
+        "issue": "Dashboard stats not showing"
+    },
+    {
+        "ticketId": "TKT-7208",
+        "status": "created",
+        "name": "jhon",
+        "email": "j@gmail.com",
+        "issue": "invoice not fetching"
+    }
+]
