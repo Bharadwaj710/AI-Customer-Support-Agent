@@ -1,4 +1,6 @@
-const API_BASE_URL = 'https://ai-customer-support-agent-0kch.onrender.com';
+const API_BASE_URL = import.meta.env.DEV 
+    ? 'http://localhost:8000' 
+    : 'https://ai-customer-support-agent-0kch.onrender.com';
 
 export const getHealth = async () => {
     const response = await fetch(`${API_BASE_URL}/health`);
